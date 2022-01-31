@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+.Header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Header h1 {
+  font-size: 50px;
+}
+
+.TituloPlanetas {
+  text-align: center;
+  margin: 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.Planetcard {
+  display: inline-flex;
+}
+
+.missões {
+  padding: 20px;
+  display: inline-flex;
+}
+
+.missão {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 100px;
+}
+
+.missãoName {
+  text-align: center;
+}
+
+.square:hover {
+  width: 210px;
+}
